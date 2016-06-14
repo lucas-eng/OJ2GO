@@ -1,0 +1,195 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  }
+
+  html, body {height: 100%; }
+
+  body {
+  margin: 0;
+  }
+
+a{
+  text-decoration: none;
+}
+
+header{
+  display:block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal;
+  background-position: 30px 20px, 50% 50%;
+  background-image: url(../logo.svg), url(../img/13.jpg);
+  padding-bottom: 50px;
+  height: 400px;
+}
+
+header .logo{
+  height: 50px;
+    width: 50px;
+    float: left;
+    margin: 10px 0 0 30px;
+}
+
+header .logo path{
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+header nav{
+  float: right;
+    padding: 30px 30px 0 0;
+}
+
+header nav a{
+  display: inline-block;
+      margin-left: 20px;
+      color: rgba(255, 255, 255, 0.9);
+}
+
+header nav a:hover{
+  color: black;
+}
+
+header h1{
+  text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 120px;
+}
+
+header h1 span{
+  display: inline-block;
+      padding: 0.03em 0.6em;
+      border: white solid 10px;
+      opacity: 0.95;
+}
+
+header .subhead{
+  text-align: center;
+letter-spacing: 0.5em;
+color: white;
+line-height: 1;
+animation-delay: 1s;
+}
+
+.prices {
+  text-align: center;
+  font-size:16px;
+  color:#fff;
+  width:100%;
+  border-width: 1px;
+  border-color: #9dcc7a;
+  border-collapse: collapse;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  	background-image: url(../img/23.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.prices th {
+  border-width: 1px;
+  font-family: sans-serif;
+  padding: 8px;
+  border-style: solid;
+  border-color: white;
+  text-align:left;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+}
+
+
+.prices td {
+  font-size:16px;
+  border-width: 1px;
+  padding: 12px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.row{
+letter-spacing: 0.4em;
+}
+
+.prices tr:hover {
+  background-color: rgba(0,0,0,0.6);
+
+}
+
+body{
+	height: 400px;
+}
+
+h1{
+  text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 70px;
+	margin-top:0px;
+}
+
+h1 span{
+  display: inline-block;
+      padding: 0.03em 0.6em;
+      border: white solid 10px;
+      opacity: 0.95;
+}
+
+.subhead{
+  text-align: center;
+letter-spacing: 0.5em;
+color: white;
+line-height: 1;
+animation-delay: 1s;
+padding-bottom: 50px;
+margin: 0px;
+}
+
+
+.footer{
+	background-image: url(../img/18.jpg);
+	background-size: cover;
+	background-position: center;
+	margin:0px;
+	padding:0px;
+}
+
+.subhead a{
+	text-decoration: none;
+	color: white;
+		font-weight: 600;
+}
+
+.subhead a:hover{
+	color: black;
+}
+
+@media (max-width: 640px) {
+  header {
+    background-position: 50% 20px, 50% 50%; }
+    header nav {
+      float: none;
+      text-align: center;
+      padding-top: 90px; }
+    header h1 {
+      padding-top: 0px; } }
